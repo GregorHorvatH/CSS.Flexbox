@@ -1,0 +1,104 @@
+.flex-container {
+     display: flex;
+     border: 1px black solid;
+     width: 300px;
+     height: 500px;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: stretch;
+     background-color: black;
+     background: url('bg_2.jpg');
+     background-size: cover;
+ }
+
+.el {
+    border: 1px black solid;
+    text-align: center;
+}
+
+.el-1 {
+    height: 50px;
+    background-color: rgba(4, 4, 92, 0.5);
+    color: white;
+}
+
+.el-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    flex-grow: 1;
+}
+
+.el-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 60px;
+    background-color: rgba(4, 4, 92, 0.5);
+}
+
+.phone-button {
+    border: 1px black solid;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.photo-box-1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.photo-box-2 {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+}
+
+.photo-corner-1 {
+    position: absolute;
+    border: 1px lime;
+    width: 10px;
+    height: 10px;
+}
+
+.photo-corner-2 {
+    position: absolute;
+    border: 2px lime;
+    width: 20px;
+    height: 20px;
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+    border-top-style: solid;
+    border-left-style: solid;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+    border-top-style: solid;
+    border-right-style: solid;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+    border-bottom-style: solid;
+    border-right-style: solid;
+}
